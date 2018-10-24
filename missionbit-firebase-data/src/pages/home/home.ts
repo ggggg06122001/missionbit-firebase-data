@@ -99,7 +99,7 @@ export class HomePage {
         {
           text: 'Save',
           handler: data => {
-            this.firebaseProvider.addMovie(data);  //Call our function from the first part
+            this.firebaseProvider.addMovie(data);  //Call our function from the first part hello
           }
         }
       ]
