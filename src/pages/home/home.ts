@@ -10,5 +10,7 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
-
+  openCat(){
+    this.navCtrl.push("CatInfoPage");
+  }
 }
